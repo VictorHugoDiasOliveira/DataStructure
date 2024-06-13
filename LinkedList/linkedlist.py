@@ -82,12 +82,12 @@ class LinkedList:
             return True
 
     def __repr__(self):
-        r = ""
+        string = ""
         pointer = self.head
         while(pointer):
-            r = r + str(pointer.data) + "->"
+            string = string + str(pointer.data) + "->"
             pointer = pointer.next
-        return r
+        return string
 
     def __str__(self):
         return self.__repr__()
