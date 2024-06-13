@@ -1,1 +1,5 @@
-# DataStructure
+# Data Structure
+
+## Overview
+This repository contains a construct of the following data structure types:
+- Linked List
